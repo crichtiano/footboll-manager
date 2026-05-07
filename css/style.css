@@ -34,6 +34,10 @@ body {
      background-image: radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);;
 }
 
+.wrapper{
+    max-width: 300;
+    margin: 0px auto;
+}
 .menu {
     display: inline-block;
     text-align: center;
