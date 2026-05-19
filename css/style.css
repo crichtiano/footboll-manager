@@ -29,18 +29,22 @@ ul {
 a {
     text-decoration: none;
 }
-.header{
+
+.header {
     padding: 20px 0;
 }
-.phon{
+
+.phon {
     padding: 10px;
 }
+
 .img {
     position: absolute;
     bottom: -10px;
     right: 0;
 }
-.img{
+
+.img {
     object-fit: cover;
 }
 
@@ -49,14 +53,17 @@ body {
     background-image: radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
     ;
 }
+
 .wrapper {
     max-width: 960px;
     margin: 0px auto;
 }
-.footb{
+
+.footb {
     padding: 10px 0 25px;
     font-size: 30px;
 }
+
 .menu {
     text-transform: uppercase;
     display: inline-block;
@@ -66,7 +73,11 @@ body {
     gap: 30px;
     border-radius: 20px;
     background-color: #acacaa3a;
-    padding: 12px 50px ;
+    padding: 12px 50px;
+}
+
+.btn-grey {
+    transition: .5s;
 }
 
 .number {
@@ -101,6 +112,28 @@ body {
     max-width: 340px;
     border-radius: 35px;
     border: 3px solid #f4d633;
+    transition: .5s;
+}
+
+.phon {
+    transition: .5s;
+}
+
+.social {
+    transition: 1s;
+}
+
+.inst {
+    padding: 5px;
+    transition: .5s;
+}
+
+.geo {
+    transition: .5s;
+}
+
+.tg {
+    transition: .5s;
 }
 
 .text {
@@ -112,9 +145,11 @@ body {
 .hour {
     color: #204075;
 }
-main{
+
+main {
     position: relative;
 }
+
 .main {
     display: flex;
     flex-direction: column;
@@ -123,10 +158,11 @@ main{
     z-index: 1;
 }
 
-.logoanrik{
+.logoanrik {
     text-align: right;
-    padding:14px 0 30px ;
+    padding: 14px 0 30px;
 }
+
 .time {
     font-weight: bold;
     font-size: 12px;
@@ -141,4 +177,30 @@ main{
 
 .footer {
     background-color: #f4d633;
+}
+
+.menu :hover {
+    color: #f4d633;
+}
+
+.btn:hover {
+    border-radius: 100px 0px;
+    color: #fff;
+    border: 4px double #ffffff;
+}
+
+.phon:hover {
+    transform: rotate(360deg) scale(1.3);
+}
+
+.geo:hover {
+    transform: rotate(720deg) scale(1.5);
+}
+
+.inst:hover {
+    transform: rotate(720deg) scale(1.5);
+}
+
+.tg:hover {
+    transform: rotate(720deg) scale(1.5);
 }
