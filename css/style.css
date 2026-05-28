@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto Slab", sans-serif;
+    background-image: radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+    ;
+    cursor: url("/img/ronaldocoursor"), auto;
 }
 
 body,
@@ -18,8 +21,8 @@ a {
 }
 
 h1 {
-    font-size: 48px;
     color: #fff;
+    font-size: 48px;
 }
 
 ul {
@@ -48,15 +51,9 @@ a {
     object-fit: cover;
 }
 
-body {
-    max-height: 60vh;
-    background-image: radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
-    ;
-}
-
 .wrapper {
-    max-width: 960px;
     margin: 0px auto;
+    max-width: 960px;
 }
 
 .footb {
@@ -65,23 +62,27 @@ body {
 }
 
 .menu {
-    text-transform: uppercase;
     display: inline-block;
-    text-align: center;
+    padding: 12px 50px;
+    gap: 30px;
     font-weight: bold;
     font-size: 14px;
-    gap: 30px;
-    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
     background-color: #acacaa3a;
-    padding: 12px 50px;
+    border-radius: 20px;
+    transition: .5s;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .btn-grey {
     transition: .5s;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .number {
     font-size: 16px;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .flex-between {
@@ -100,19 +101,20 @@ body {
 }
 
 .btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
-    color: #f4d633;
     display: inline-block;
+    padding: 21.5px 30px;
     width: 100%;
     max-width: 280px;
-    padding: 21.5px 30px;
-    text-align: center;
     max-width: 340px;
+    color: #f4d633;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
     border-radius: 35px;
     border: 3px solid #f4d633;
     transition: .5s;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .number{
@@ -129,14 +131,16 @@ body {
 .inst {
     padding: 5px;
     transition: .5s;
+    
 }
-
 .geo {
     transition: .5s;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .tg {
     transition: .5s;
+    cursor: url("/img/coursorboll"), auto;
 }
 
 .menu .btn-grey {
@@ -145,8 +149,8 @@ body {
 
 .text {
     padding: 10px 0px;
-    text-transform: uppercase;
     max-width: 700px;
+    text-transform: uppercase;
 }
 
 .hour {
@@ -166,20 +170,20 @@ main {
 }
 
 .logoanrik {
-    text-align: right;
     padding: 14px 0 30px;
+    text-align: right;
 }
 
 .time {
+    color: #204075;
     font-weight: bold;
     font-size: 12px;
-    color: #204075;
 }
 
 .graphic {
+    padding: 20px;
     font-size: 18px;
     font-weight: bold;
-    padding: 20px;
 }
 
 .footer {
@@ -187,14 +191,14 @@ main {
 }
 
 .menu :hover {
-    transform: scale(1.2);
     color: #f4d633;
+    transform: scale(1.2);
 }
 
 .btn:hover {
-    border-radius: 100px 0px;
     color: #204075;
     background-color: #f4d633;
+    border-radius: 100px 0px;
 }
 
 .number:hover {
