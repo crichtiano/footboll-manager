@@ -72,17 +72,17 @@ a {
     background-color: #acacaa3a;
     border-radius: 20px;
     transition: .5s;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .btn-grey {
     transition: .5s;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .number {
     font-size: 16px;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .flex-between {
@@ -114,7 +114,7 @@ a {
     border-radius: 35px;
     border: 3px solid #f4d633;
     transition: .5s;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .number{
@@ -131,16 +131,16 @@ a {
 .inst {
     padding: 5px;
     transition: .5s;
-    
+    cursor: url("/img/ronaldocoursor"), pointer;
 }
 .geo {
     transition: .5s;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .tg {
     transition: .5s;
-    cursor: url("/img/coursorboll"), auto;
+    cursor: url("/img/coursorboll"), pointer;
 }
 
 .menu .btn-grey {
