@@ -67,6 +67,14 @@ a {
     font-size: 30rem;
 }
 
+.burger {
+    display: none;
+}
+
+.menu {
+    display: flex;
+}
+
 .menu {
     display: inline-block;
     padding: 12rem 50rem;
@@ -79,6 +87,15 @@ a {
     border-radius: 20rem;
     transition: .5s;
     cursor: url("/img/coursorboll"), pointer;
+}
+
+.burger span {
+    display: block;
+    width: 25rem;
+    height: 5rem;
+    background-color: rgb(255, 206, 46);
+    border-radius: 5px;
+    margin: 3px 0;
 }
 
 .btn-grey {
@@ -158,6 +175,7 @@ a {
 .text {
     padding: 10rem 0rem;
     max-width: 700rem;
+    width: 100%;
     text-transform: uppercase;
 }
 
@@ -229,15 +247,50 @@ main {
     transform: scale(1.05);
 }
 
-@media (max-width:768px) {
+@media (max-width:1020px) {
     .img {
-       display: none;
+        display: none;
     }
-    .main{
+
+    .main {
         text-align: center;
         align-items: center;
     }
-    html{
+
+    html {
         font-size: 0.70px;
+    }
+}
+
+@media(max-width:650px) {
+    .main-burg {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .social {
+        padding: 0;
+    }
+    html{
+        font-size: .50px;
+    }
+    .logo img{
+        width: 100%;
+        max-width: 120px;
+    }
+    .footrelogo img{
+        width: 100%;
+        max-width: 120px;
+    }
+    .social img{
+        width: 100%;
+        max-width: 17px;
+    }
+    .zirocka img{
+        width: 100%;
+        max-width: 60px;
     }
 }
