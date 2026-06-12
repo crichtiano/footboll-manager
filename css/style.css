@@ -75,7 +75,7 @@ a {
     left: -100%;
     padding: 12rem 50rem;
     font-weight: bold;
-    font-size: 18rem;
+    font-size:25rem;
     transition: .5s;
     cursor: url("/img/coursorboll"), pointer;
     z-index: 2;
