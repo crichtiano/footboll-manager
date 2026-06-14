@@ -73,14 +73,19 @@ a {
     position: fixed;
     top: 0;
     left: -100%;
-    padding: 12rem 50rem;
+    width: 60vw;
+    height: 100vh;
+    padding: 40rem 40rem;
     font-weight: bold;
-    font-size:25rem;
+    font-size:50rem;
     transition: .5s;
     cursor: url("/img/coursorboll"), pointer;
     z-index: 2;
     color: #f4d633;
     background-color: #336af476;
+}
+.menu li{
+    padding: 10rem;
 }
 .dark-bgc {
   display: none;
@@ -95,7 +100,7 @@ a {
 }
 .cancel {
     position: absolute;
-    left: 90%;
+    left: 85%;
     top: 0%;
     z-index: 3;
 }
@@ -146,7 +151,6 @@ a {
     transition: .5s;
     cursor: url("/img/coursorboll"), pointer;
 }
-
 .burger span {
     display: block;
     width: 30rem;
@@ -311,15 +315,16 @@ main {
         max-height: 4500px;
     }
     .phon{
-        width: 100%;
-        max-width: 50px;
-    }
-    .number{
-        width: 100%;
-        max-width: 600px;
+        width: 60px;
     }
     .zirocka img{
         width: 100%;
         max-width: 200px;
+    }
+    .logo, .footrelogo img{
+        width: 350px;
+    }
+    .social img{
+        width: 60px;
     }
 }
