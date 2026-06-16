@@ -52,7 +52,9 @@ a {
     display: none;
      object-fit: cover;
 }
-
+main{
+    min-height: 580px;
+}
 .img img{
     height: 100%;
 }
@@ -286,7 +288,7 @@ main {
         height: auto;
         justify-content: space-between;
         align-items: center;
-        padding: 12rem 50rem;
+        padding: 5rem 50rem;
         gap: 30rem;
         font-size: 14rem;
         text-transform: uppercase;
@@ -305,8 +307,12 @@ main {
         align-items: flex-start;
         text-align: left;
     }
+    .zirocka img{
+        width: 100%;
+        max-width: 150px;
+    }
 }
-@media screen and (min-width:2560px) {
+@media screen and (min-width:1920px) {
     html{
         font-size: 2px;
     }
